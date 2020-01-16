@@ -1,11 +1,11 @@
 # Site settings
-author: Kelly Powers
-title: 
+author: Kelly
+title: Software Engineering Bootcamp Blog
 header-img: img/home-bg.png
 email: kpowers.nj@gmail.com
-copyright_name: Kelly Powers
+copyright_name: Kelly
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Flatiron School Online Full Time Program 2020
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  kellypowers
