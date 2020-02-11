@@ -1,10 +1,11 @@
 ---
 layout: post
-title:      "CLI Gem Project Blog Post - Zodiac Sign"
-date:       2020-02-11 17:30:14 +0000
+title:      "CLI Gem Project Blog Post "
+date:       2020-02-11 12:30:15 -0500
 permalink:  cli_gem_project_blog_post_-_zodiac_sign
 ---
 
+# Zodiac Sign
 
 
 
