@@ -36,25 +36,25 @@ My relationships are with classes User, Workout, and Goal.  A user has many work
 class WorkoutGoal < ActiveRecord::Base
    belongs_to :goal
    belongs_to :workout
-	```
+	
 
-```
+
 class Goal < ActiveRecord::Base
    has_many :workouts, through: :workout_goals
    belongs_to :user
-```
- 
-```
+
+
+
 class User < ActiveRecord::Base
    has_secure_password
    has_many :workouts
    has_many :goals
    validates_presence_of :name, :email, :password
    validates_uniqueness_of :email
-```
 
 
-```
+
+
 class Workout < ActiveRecord::Base
    belongs_to :user
    has_many :goals, through: :workout_goals
