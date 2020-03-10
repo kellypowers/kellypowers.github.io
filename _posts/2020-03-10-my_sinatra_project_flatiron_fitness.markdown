@@ -42,7 +42,7 @@ class WorkoutGoal < ActiveRecord::Base
 class Goal < ActiveRecord::Base
    has_many :workouts, through: :workout_goals
    belongs_to :user
- ```
+```
  
 ```
 class User < ActiveRecord::Base
@@ -58,7 +58,7 @@ class User < ActiveRecord::Base
 class Workout < ActiveRecord::Base
    belongs_to :user
    has_many :goals, through: :workout_goals
-  ```
+ ```
 
 
 
