@@ -27,7 +27,8 @@ There is a lot of information out there on BSTs.  After studying some of the the
 
 First define a class Node:
 
-```class Node {
+```
+class Node {
     constructor(value) {
         this.value = value;
         this.left = null;
@@ -181,11 +182,14 @@ Next, an important part of BSTs, are the search functions that go along with it.
 
 Depth-First-Searches go branch-by-branch.  
 In @beiatrix's example, her BST looks like this:
+```
+
           				 15
 					 / \
 				      3      36
-			             /  \      /   \
+			             /  \   /   \
 		                   2  12.  28. 39
+```
 
 In an In-Order Depth First Search, the search starts at the left branch, then goes to the root, then goes to the right, so it will search the above tree in the following order:
 2, 3, 12, 15, 28, 36, 39
